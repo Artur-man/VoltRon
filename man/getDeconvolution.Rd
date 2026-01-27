@@ -26,13 +26,13 @@ if NULL, the default assay will be used, see \link{vrMainAssay}.}
 
 \item{sc.object}{Seurat Object}
 
-\item{sc.assay}{assay of the Seurat Object used for the single cell 
+\item{sc.assay}{assay of the Seurat Object used for the single cell
 data reference}
 
-\item{sc.cluster}{metadata column variable used for the single cell 
+\item{sc.cluster}{metadata column variable used for the single cell
 data reference}
 
-\item{method}{Deconvolution method, RCTD (spot), SPOTlight (spot), 
+\item{method}{Deconvolution method, RCTD (spot), SPOTlight (spot),
 MuSiC (ROI)}
 
 \item{...}{additional parameters passed to method specific functions,
